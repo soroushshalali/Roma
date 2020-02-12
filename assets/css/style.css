@@ -216,15 +216,15 @@ main{
     display: block;
     width: 150px;
     height: 150px;
-    padding-left: 35%;
-    color: #c1f1c8;
+    margin-left:20% ;
+
 }
 
 .sec5 > h1{
     margin: 0;
     margin-top: 5vh;
     font-size:150px ;
-    margin-left:50% ;
+    margin-left:20% ;
     color: #a9ad92;
     margin-top: 4vh;
 
@@ -236,7 +236,7 @@ main{
     color: #e7bc0e ;
     margin: 0;
     font-size: 39px;
-    margin-left:50% ;
+    margin-left:20% ;
     color: #cb91b6;
     margin-top: 4vh;
     color: #a9ad92;

@@ -9,6 +9,22 @@
 
 }
 
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 body{
     
@@ -17,9 +33,16 @@ body{
     font-family: santio;
 }
 
+.blackdiv{
+background-color: rgba(0, 0, 0, 0.548);    
+width: 100%;
+height: 650vh;
+
+}
+
 main{
     width: 100%;
-    height: 630vh;
+    height: 650vh;
     background-image: url(../img/1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,41 +73,55 @@ main{
     text-decoration: underline #e7bc0e ;
     color: #ffffff;
     display: inline-block;
-    margin-top: 10px;
-    font-weight: 900;
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: roboto;
 }
 
 .sec1 > h1{
     color: #ffffff;
     font-family: Roboto;
-    font-size: 90px;
+    font-size: 100px;
     text-shadow: 0px 0px 1px  black;
     font-family: santio;
-    margin-top: 10vh;
-   
-    
+    margin-top: 10vh; 
 }
+
 
 .sec1 > h5{
     color: #e7bc0e ;
     font-family: mr dafoe;
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.sec1 > h5 > a{
+    text-decoration: none;
+    color: #e7bc0e ;
+}
+
+.sec1 > h5 > a:hover{
+  
+    color: #cb91b6;
+}
+
+.sec1 > h5 >span{
+    margin: 0 20px;
 }
 
 .sec2{
-    padding-left: 25%;
-    height: 100vh;
-    padding-top: 20vh;
+    padding-left: 5%;
+    height: 140vh;
+    padding-top: 10vh;
 }
 .sec2 > p > span{
     color: rgb(255, 255, 255);
     background-color: #316150 ;
 }
 .sec2 >  p{
-    width: 55%;
+    width: 70%;
     text-align: left;
-    line-height: 50px;
-    font-size: 30px;
+    line-height: 70px;
+    font-size: 40px;
     color:#83cfb5 ;
     font-weight: 500;
     text-shadow: 0px 0px 2px black;
@@ -100,25 +137,25 @@ main{
 
 .sec3 > img{
   display: block;
-  width: 100px;
-  height: 100px;
-  margin-left:35% ;
+  width: 150px;
+  height: 150px;
+  margin-left:20% ;
 }
 
 .sec3 > h1{
     margin: 0;
     margin-top: 5vh;
-    font-size:70px ;
+    font-size:150px ;
     color: #e7bc0e ;
-    margin-left:35% ;
+    margin-left:20% ;
 }
 
 .sec3 > h3{
     font-size:70px ;
     color: #e7bc0e ;
     margin: 0;
-    font-size: 19px;
-    margin-left:35% ;
+    font-size: 39px;
+    margin-left:20% ;
 
 }
 
@@ -138,17 +175,18 @@ main{
 
 .sec4 > img{
     display: block;
-    width: 100px;
-    height: 100px;
-    margin-left:35% ;
-    color: #cb91b6;
+    width: 150px;
+    height: 150px;
+    margin-left:50%;
+    
 }
 
 .sec4 > h3{
     font-size:70px ;
+    color: #e7bc0e ;
     margin: 0;
-    font-size: 19px;
-    padding-left: 35%;
+    font-size: 39px;
+    margin-left:50% ;
     color: #cb91b6;
     margin-top: 4vh;
    
@@ -162,8 +200,9 @@ main{
 
 .sec4 > h1{
     margin: 0;
-    font-size:70px ;
-    padding-left: 35%;
+    margin-top: 5vh;
+    font-size:150px ;
+    margin-left:50% ;
     color: #cb91b6;
 }
 
@@ -175,16 +214,17 @@ main{
 
 .sec5 > img{
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding-left: 35%;
     color: #c1f1c8;
 }
 
 .sec5 > h1{
     margin: 0;
-    font-size:100px ;
-    padding-left: 35%;
+    margin-top: 5vh;
+    font-size:150px ;
+    margin-left:50% ;
     color: #a9ad92;
     margin-top: 4vh;
 
@@ -192,9 +232,13 @@ main{
 
 
 .sec5 > h3{
+    font-size:70px ;
+    color: #e7bc0e ;
     margin: 0;
-    font-size: 25px;
-    padding-left: 35%;
+    font-size: 39px;
+    margin-left:50% ;
+    color: #cb91b6;
+    margin-top: 4vh;
     color: #a9ad92;
     margin-top: 2vh;
 }
@@ -209,6 +253,8 @@ main{
     width: 100%;
     height: 100vh;
     padding: 0;
+    padding-left: 30%;
+    padding-right: 10%;
 
     /* padding-left: 10%; */
     
@@ -216,11 +262,12 @@ main{
 
 .sec6 > p{
     color:#7eb8e1 ;
-    width: 40%;
+    width: 100%;
     text-align: justify;
     font-size: 40px;
-    padding-left: 35%;
+    line-height: 60px;
     margin-bottom: 0;
+    
 
 }
 .sec6 > p >span{
@@ -246,7 +293,7 @@ main{
 
 footer{
     background-color: black;
-    height: 60vh;
+    height: 150vh;
     padding-top: 20vh;
     padding-bottom: 0;
     position: relative;
@@ -260,13 +307,13 @@ footer > h1{
     color: white;
     padding-left: 10%;
     margin-bottom: 5vh;
-    font-size: 60px;
+    font-size: 110px;
 
 }
 
 footer > a{
     display: inline-block;
-    padding: 10px 45px;
+    padding: 20px 80px;
     background-color: black;
     border: 1px solid white;
     text-decoration: none;
@@ -275,13 +322,13 @@ footer > a{
 }
 
 footer > a:hover{
-    box-shadow: 2px 2px 1px white;
+    box-shadow: 5px 5px 1px white;
 }
 
 footer > p{
     color: white;
     position: absolute;
-    top: 95%;
+    top: 97%;
     left: 40%;
     font-size: 10px;
     

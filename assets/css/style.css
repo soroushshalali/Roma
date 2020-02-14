@@ -100,12 +100,14 @@ main{
 }
 
 .sec1 > h5 > a:hover{
-  
+    transition: 0.5s;
     color: #cb91b6;
 }
 
-.sec1 > h5 >span{
-    margin: 0 20px;
+.sec1 > h5 > a >span{
+    margin-left: 3%;
+    position: absolute;
+    transform: rotate(90deg);
 }
 
 .sec2{
